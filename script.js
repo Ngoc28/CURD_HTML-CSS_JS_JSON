@@ -51,6 +51,7 @@ function handleDeleteProduct(id) {
         .then(function() {
            var productItem = document.querySelector('.product-item-' + id);
            if(productItem) {
+            alert("Bạn muốn xóa sản phẩm?")
             productItem.remove();
            }
         });
