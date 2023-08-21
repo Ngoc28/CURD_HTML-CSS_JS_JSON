@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURD Cơ bản</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <header class="header-menu">
+        <ul class="list-menu">
+            <li class="item-menu"><a href="">Trang chủ</a></li>
+            <li class="item-menu"><a href="">Sản phẩm</a></li>
+            <li class="item-menu"><a href="">Tin tức</a></li>
+            <li class="item-menu"><a href="">Tuyển dụng</a></li>
+            <li class="item-menu"><a href="">Đại lý</a></li>
+        </ul>
+    </header>
+    <div class="main">
+        <div class="title-product">
+            <h2 class="title">Sản phẩm của chúng tôi</h2>
+        </div>
+        <div class="products">
+            <div class="product">
+                <!-- <h3 class="product-name">Coca-Cola</h3>
+                <img src="https://cdn.tgdd.vn/Products/Images/2947/190310/bhx/sua-trai-cay-nutriboost-huong-cam-297ml-202202122134380628.jpg" alt="" class="product-img">
+                <spam class="product-price">18.000</spam>
+                <span class="product-description">Nutriboost là thức uống dinh dưỡng kết hợp sữa và nước trái cây thơm ngon, giúp bạn luôn tràn năng lượng cho một ngày làm việc hiệu quả.</span> -->
+            </div>           
+        </div>   
+    </div>
+    <div class="form">
+        <div class="form-1">
+            <label for="">Title</label>
+            <input type="text" name="title">
+        </div>
+        <div class="form-1">
+            <label for="">Image</label>
+            <input type="text" name="image">
+        </div>
+        <div class="form-1">
+            <label for="">Pice</label>
+            <input type="text" name="price">
+        </div>
+        <div class="form-1">
+            <label for="">Description</label>
+            <input type="text" name="description">
+        </div>
+        <button type="submit" id="create">Thêm sản phẩm</button>
+    </div>
+
+    <!-- formUpdate -->
+    <div class="formUpdate">
+        <div class="modal">
+            <header>
+                <i class="update-icon fa-solid fa-xmark"></i>
+                <h1>
+                    Form Update    
+                </h1>
+            </header>
+            <div class="container">
+                <div class="form-2">
+                    <label for="">Title</label>
+                    <input type="text" name="title">
+                </div>
+                <div class="form-2">
+                    <label for="">Image</label>
+                    <input type="text" name="image">
+                </div>
+                <div class="form-2">
+                    <label for="">Pice</label>
+                    <input type="text" name="price">
+                </div>
+                <div class="form-2">
+                    <label for="">Description</label>
+                    <input type="text" name="description">
+                </div>
+                <button type="submit" id="update">Update</button>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

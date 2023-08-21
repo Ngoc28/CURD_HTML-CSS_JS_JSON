@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "title": "Coca-Cola",
+            "image": "https://tomitamart.vn/public/media//00400.jpg",
+            "price" : 15000,
+            "description": "Coca-Cola là một thương hiệu nước ngọt có ga chứa nước cacbon dioxide bão hòa được sản xuất bởi Công ty Coca-Cola."
+        },
+        {
+            "title": "Pepsi",
+            "image": "https://product.hstatic.net/1000400508/product/2112_d99536f1cdd041b08a2cca6fcd4eb819_c8f8c249024b49a194def01c60769d63_fbe9d218afc64cc4ac750afc84385e91_master.jpg",
+            "price" : 10000,
+            "description": "Pepsi một đồ uống giải khát có gas, lần đầu tiên được sản xuất bởi Caleb Bradham."
+        },
+        {
+            "title": "Nutri boost",
+            "image": "https://cdn.tgdd.vn/Products/Images/2947/190310/bhx/sua-trai-cay-nutriboost-huong-cam-297ml-202202122134380628.jpg",
+            "price" : 18000,
+            "description": "Nutriboost là thức uống dinh dưỡng kết hợp sữa và nước trái cây thơm ngon, giúp bạn luôn tràn năng lượng cho một ngày làm việc hiệu quả. "
+        }
+    ]
+}

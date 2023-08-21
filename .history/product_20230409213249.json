@@ -1,0 +1,10 @@
+{
+    "products": [
+        {
+            "title": "Coca-Cola",
+            "image": "https://tomitamart.vn/public/media//00400.jpg",
+            "price" : 15.000,
+            "description": ""
+        }
+    ]
+}
